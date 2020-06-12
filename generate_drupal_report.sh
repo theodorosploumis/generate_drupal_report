@@ -31,7 +31,7 @@ echo "$composer_show_results" > ${prefix}_php_packages.txt
 
 better_table=$(eval "column -t -s ' ' ${prefix}_php_packages.txt")
 
-echo "PHP Package                                Version" > ${prefix}_php_packages.txt
+echo "PHP Package                               Version" > ${prefix}_php_packages.txt
 echo "------------------------------------------------------">> ${prefix}_php_packages.txt
 echo "$better_table" >> ${prefix}_php_packages.txt
 
