@@ -17,7 +17,9 @@ It generates only **2 txt files**:
 ## Download and install
 
 ```
-wget https://raw.githubusercontent.com/theodorosploumis/generate_drupal_report/master/generate_drupal_report.sh --no-check-certificate && chmod +x generate_drupal_report.sh && mv -f generate_drupal_report.sh /usr/local/bin/drupal-report
+wget https://raw.githubusercontent.com/theodorosploumis/generate_drupal_report/master/generate_drupal_report.sh \
+     --no-check-certificate && chmod +x generate_drupal_report.sh && \
+     mv -f generate_drupal_report.sh /usr/local/bin/drupal-report
 ```
 
 ## Execute
